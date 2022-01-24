@@ -1,0 +1,24 @@
+.hb {
+    background-color: white; 
+    font-size: 19px;
+    font-weight: 400;
+    height: 48px;
+    border-radius: 0%;
+}
+
+.hb:hover {
+    background-color: whitesmoke; 
+    border-radius: 0%;
+    border-color: whitesmoke;
+}
+
+.hb:focus {
+    background-color: whitesmoke;
+    outline: none;
+    box-shadow: none;
+}
+
+.hbar {
+    height: 48px;
+}
+
