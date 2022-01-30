@@ -20,5 +20,8 @@
 
 .hbar {
     height: 48px;
+    background-color: white;
+    font-weight: 400;
+    font-family: Helvetica,Arial,sans-serif;
 }
 
