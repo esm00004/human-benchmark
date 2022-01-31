@@ -27,3 +27,10 @@
 .card-title {
     margin-bottom: 0px;
 }
+
+.card:hover {
+    box-shadow: rgb(0 0 0 / 7%) 0px 12px 15px;
+    transform: translateY(-10px);
+    transition: transform 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+    /* need to add changing the image to orange */
+}
