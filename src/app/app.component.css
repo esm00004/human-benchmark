@@ -44,4 +44,6 @@
 
 .tests {
     margin-left: 420px;
+    box-sizing: border-box;
+    min-width: 700px;
 }

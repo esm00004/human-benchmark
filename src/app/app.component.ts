@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { mock_tests_list } from './tests/mock_tests_list';
+import { TestItemModel } from './tests/test-item.model';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'human-benchmark';
+  tests: TestItemModel [] = [];
+
+  constructor () {
+    for (var test of mock_tests_list) {
+      this.tests.push(test);
+    }
+  }
 }

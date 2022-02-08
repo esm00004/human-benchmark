@@ -21,9 +21,18 @@
     <img src="assets/ad.png" class="ad" alt="ad">
 </div>
 
-<div class="container-fluid d-flex tests">
-    <hm-tests-card>Loading...</hm-tests-card>
-    <hm-tests-card>Loading...</hm-tests-card>  
-    <hm-tests-card>Loading...</hm-tests-card>
+<div>
+
+    <div class="container-fluid d-flex tests">
+        <div *ngFor="let testCard of tests">
+            <hm-tests-card img={{testCard.img}}
+            title={{testCard.title}}
+            description={{testCard.description}}
+            >Loading...</hm-tests-card>
+        </div>
+    </div>
+    
 </div>
+
+
 </body>

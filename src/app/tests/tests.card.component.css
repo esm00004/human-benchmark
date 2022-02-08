@@ -3,7 +3,9 @@
     transition:ease-in;
     display: block;
     min-width: 310px;
-    min-height: 275px;
+    max-width: 310px;
+    min-height: 267.38px;
+    /* 275px */
     text-align: center;
     padding: 30px;
     margin-right: 20px;
@@ -36,6 +38,7 @@
     transform: translateY(-10px);
     transition: transform 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
     /* need to add changing the image to orange */
+    /* to do this, I need to add the orange image and make it change to that once you hover */
 }
 
 .card-body {
@@ -43,4 +46,6 @@
     padding: 0px;
     font-family: Helvetica,Arial,sans-serif;
     border: 0px;
+    word-wrap: break-word;
+    line-height: 1.4;
 }
