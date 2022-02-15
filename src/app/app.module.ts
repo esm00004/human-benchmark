@@ -4,15 +4,29 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './Navigation/header/topnavbar.component';
 import { TestsCardComponent } from './tests/tests.card.component';
+import { AppRoutingModule } from './app-routing.module';
+import { DashboardLayoutComponent } from './Site/dashboard-layout.component';
+import { HomeLayoutComponent } from './Site/home-layout.component';
+import { TitleCardComponent } from './Site/home/title-card.component';
+import { SignUpLayoutComponent } from './Site/sign-up-layout.component';
+import { LoginLayoutComponent } from './Site/login-layout.component';
+import { ReactiontimeLayoutComponent } from './Site/tests/reactiontime-layout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
-    TestsCardComponent
+    TestsCardComponent,
+    DashboardLayoutComponent,
+    HomeLayoutComponent,
+    TitleCardComponent,
+    SignUpLayoutComponent,
+    LoginLayoutComponent,
+    ReactiontimeLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

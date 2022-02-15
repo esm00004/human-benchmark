@@ -9,11 +9,7 @@ import { TestItemModel } from './tests/test-item.model';
 })
 export class AppComponent {
   title = 'human-benchmark';
-  tests: TestItemModel [] = [];
+  
 
-  constructor () {
-    for (var test of mock_tests_list) {
-      this.tests.push(test);
-    }
-  }
+  
 }

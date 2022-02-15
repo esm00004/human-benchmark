@@ -2,22 +2,21 @@
     <div class="container-fluid d-flex justify-content-evenly">
         <!-- the line above needs to be fixed to not use inline css -->
         <div class="navi">
-            <button type="button" class="btn hb">
+            <a routerLink="home" type="button" class="btn hb">
                 <!-- I could add this to a css file thing -->
                 <svg class="bi" width="0.625em" height="15.3px" fill="lightgray">
                     <use xlink:href="/assets/bootstrap-icons.svg#lightning-fill" />
                 </svg>
                 HUMAN BENCHMARK
-            </button>    
-
-            <button type="button" class="btn hb">DASHBOARD</button>
+            </a>    
+            <a routerLink="dashboard" routerLinkActive="active" type="button" class="btn hb">DASHBOARD</a>
         </div>
         
 
         <div class="user">
-            <button type="button" class="btn hb">SIGN UP</button>
+            <a routerLink="signup" type="button" class="btn hb">SIGN UP</a>
             
-            <button type="button" class="btn hb">LOGIN</button>
+            <a routerLink="login" type="button" class="btn hb">LOGIN</a>
         </div>
 
     </div>
