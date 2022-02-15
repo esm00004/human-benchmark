@@ -1,15 +1,17 @@
 
 <hb-title-card>Loading...</hb-title-card>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-9" style="margin: opx auto;">
+            <img src="assets/ad.png" class="ad" alt="ad" style="padding: 20px">
+        </div>
 
-<div class="ad">
-    <img src="assets/ad.png" class="ad" alt="ad" style="padding: 20px">
-</div>
-
-<div class="container-fluid d-flex tests">
-    <div *ngFor="let testCard of tests">
-        <hm-tests-card img={{testCard.img}}
-        title={{testCard.title}}
-        description={{testCard.description}}
-        >Loading...</hm-tests-card>
+        <div class="container-fluid d-flex justify-content-center">
+            <div *ngFor="let testCard of tests" class="col-3">
+                <hm-tests-card img={{testCard.img}} title={{testCard.title}} description={{testCard.description}}>
+                    Loading...
+                </hm-tests-card>
+            </div>
+        </div>
     </div>
 </div>

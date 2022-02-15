@@ -41,6 +41,7 @@ margin-top: 30px;
     border-radius: 3px;
     border: none;
     color: rgb(51, 51, 51);
+    text-decoration: none;
 }
 
 .bt:hover {
