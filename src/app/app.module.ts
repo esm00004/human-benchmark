@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './Navigation/header/topnavbar.component';
 import { TestsCardComponent } from './tests/tests.card.component';
 import { AppRoutingModule } from './app-routing.module';
-import { DashboardLayoutComponent } from './Site/dashboard-layout.component';
+import { DashboardLayoutComponent } from './Site/dashboard/dashboard-layout.component';
 import { HomeLayoutComponent } from './Site/home-layout.component';
 import { TitleCardComponent } from './Site/home/title-card.component';
 import { SignUpLayoutComponent } from './Site/sign-up-layout.component';

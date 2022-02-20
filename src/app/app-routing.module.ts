@@ -1,7 +1,7 @@
 import { Component, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule, Routes } from '@angular/router';
-import { DashboardLayoutComponent } from './Site/dashboard-layout.component';
+import { DashboardLayoutComponent } from './Site/dashboard/dashboard-layout.component';
 import { HomeLayoutComponent } from './Site/home-layout.component';
 import { SignUpLayoutComponent } from './Site/sign-up-layout.component';
 import { LoginLayoutComponent } from './Site/login-layout.component';
