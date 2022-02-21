@@ -2,7 +2,7 @@
     
     <div class="row">
         <div class="col-1" style="background-color: #fff; margin-right: 20px; padding: 30px;">
-            <div class="d-flex flex-column flex-shrink-0">
+            <div>
                 <div *ngFor="let game of games" class="">
                     <hb-dashboard-sidebar img={{game.img}} link={{game.link}}}>
                         Loading...
@@ -11,8 +11,19 @@
                 </div>
             </div>
         </div>
-        <div class="card col-8">
-            <hb-dashboard-title-card>Loading...</hb-dashboard-title-card>
+        
+
+        <div class=" col-8" style="padding-left: 0px; padding-right: 0px;">
+           
+            <div><hb-dashboard-title-card style="margin-bottom: 20px;">Loading...</hb-dashboard-title-card></div>
+                
+            <div><hb-dashboard-test-info-card>Loading...</hb-dashboard-test-info-card></div>
+
+
         </div>
+
     </div>
+
+    
+
 </div>

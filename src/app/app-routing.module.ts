@@ -5,7 +5,7 @@ import { DashboardLayoutComponent } from './Site/dashboard/dashboard-layout.comp
 import { HomeLayoutComponent } from './Site/home-layout.component';
 import { SignUpLayoutComponent } from './Site/sign-up-layout.component';
 import { LoginLayoutComponent } from './Site/login-layout.component';
-import { ReactiontimeLayoutComponent } from './Site/tests/reactiontime-layout.component';
+import { ReactiontimeLayoutComponent } from './Site/tests-components/reaction-time/reactiontime-layout.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},

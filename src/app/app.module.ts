@@ -10,9 +10,10 @@ import { HomeLayoutComponent } from './Site/home-layout.component';
 import { TitleCardComponent } from './Site/home/title-card.component';
 import { SignUpLayoutComponent } from './Site/sign-up-layout.component';
 import { LoginLayoutComponent } from './Site/login-layout.component';
-import { ReactiontimeLayoutComponent } from './Site/tests/reactiontime-layout.component';
+import { ReactiontimeLayoutComponent } from './Site/tests-components/reaction-time/reactiontime-layout.component';
 import { DashboardSidebarComponent } from './Site/dashboard/dashboard-sidebar.component';
 import { DashboardTitleCardComponent } from './Site/dashboard/dashboard-title-card.component';
+import { DashboardTestInfoCardComponent } from './Site/dashboard/dashboard-test-info-card.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DashboardTitleCardComponent } from './Site/dashboard/dashboard-title-ca
     LoginLayoutComponent,
     ReactiontimeLayoutComponent,
     DashboardSidebarComponent,
-    DashboardTitleCardComponent
+    DashboardTitleCardComponent,
+    DashboardTestInfoCardComponent
   ],
   imports: [
     BrowserModule,
