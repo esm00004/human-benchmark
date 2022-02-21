@@ -1,0 +1,18 @@
+.card-body {
+    margin-bottom: 20px;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.header {
+    opacity: 0.6;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    
+}
