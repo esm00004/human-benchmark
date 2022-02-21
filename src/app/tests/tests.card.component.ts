@@ -15,4 +15,4 @@ export class TestsCardComponent {
         this.title = "Reaction Time";
         this.description = "Test you visual reflexes.";
     }
-}
+} 
