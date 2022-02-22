@@ -16,6 +16,7 @@ import { DashboardTitleCardComponent } from './Site/dashboard/dashboard-title-ca
 import { DashboardTestInfoCardComponent } from './Site/dashboard/dashboard-test-info-card.component';
 import { ReactiontimeHeaderComponent } from './Site/tests-components/reaction-time/reactiontime-header.component';
 import { ReactiontimeStatsComponent } from './Site/tests-components/reaction-time/reactiontime-stats.component';
+import { ReactiontimeInfoComponent } from './Site/tests-components/reaction-time/reactiontime-info.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ReactiontimeStatsComponent } from './Site/tests-components/reaction-tim
     DashboardTitleCardComponent,
     DashboardTestInfoCardComponent,
     ReactiontimeHeaderComponent,
-    ReactiontimeStatsComponent
+    ReactiontimeStatsComponent,
+    ReactiontimeInfoComponent
   ],
   imports: [
     BrowserModule,
