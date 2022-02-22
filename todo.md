@@ -10,3 +10,5 @@ turn the images on the left and the tests in the middle to repeatable components
 
 ### tips:
 for the row and columns, you put everything in a div row and then use col to split them up within the specified row.
+
+icons.getboostrap.com -> Embedded (maybe a way to get the bolt and other sprites?)

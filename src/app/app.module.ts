@@ -13,10 +13,11 @@ import { LoginLayoutComponent } from './Site/login-layout.component';
 import { ReactiontimeLayoutComponent } from './Site/tests-components/reaction-time/reactiontime-layout.component';
 import { DashboardSidebarComponent } from './Site/dashboard/dashboard-sidebar.component';
 import { DashboardTitleCardComponent } from './Site/dashboard/dashboard-title-card.component';
-import { DashboardTestInfoCardComponent } from './Site/dashboard/dashboard-test-info-card.component';
 import { ReactiontimeHeaderComponent } from './Site/tests-components/reaction-time/reactiontime-header.component';
 import { ReactiontimeStatsComponent } from './Site/tests-components/reaction-time/reactiontime-stats.component';
 import { ReactiontimeInfoComponent } from './Site/tests-components/reaction-time/reactiontime-info.component';
+import { DashboardDataComponent } from './Site/dashboard/dashboard-data.component';
+import { DashboardActivityFeedComponent } from './Site/dashboard/dashboard-activity-feed.component.';
 
 @NgModule({
   declarations: [
@@ -31,10 +32,11 @@ import { ReactiontimeInfoComponent } from './Site/tests-components/reaction-time
     ReactiontimeLayoutComponent,
     DashboardSidebarComponent,
     DashboardTitleCardComponent,
-    DashboardTestInfoCardComponent,
     ReactiontimeHeaderComponent,
     ReactiontimeStatsComponent,
-    ReactiontimeInfoComponent
+    ReactiontimeInfoComponent,
+    DashboardDataComponent,
+    DashboardActivityFeedComponent
   ],
   imports: [
     BrowserModule,
