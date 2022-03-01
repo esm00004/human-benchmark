@@ -18,6 +18,9 @@ import { ReactiontimeStatsComponent } from './Site/tests-components/reaction-tim
 import { ReactiontimeInfoComponent } from './Site/tests-components/reaction-time/reactiontime-info.component';
 import { DashboardDataComponent } from './Site/dashboard/dashboard-data.component';
 import { DashboardActivityFeedComponent } from './Site/dashboard/dashboard-activity-feed.component.';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -36,11 +39,13 @@ import { DashboardActivityFeedComponent } from './Site/dashboard/dashboard-activ
     ReactiontimeStatsComponent,
     ReactiontimeInfoComponent,
     DashboardDataComponent,
-    DashboardActivityFeedComponent
+    DashboardActivityFeedComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
