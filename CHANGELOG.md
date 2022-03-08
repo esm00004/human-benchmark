@@ -20,3 +20,9 @@ Main features:
         - GitHub
         - mix_id
     - Created realtime database to store component data.
+
+Release notes: 3/8/22
+Main features:
+    - Added dashboard data to realtime database.
+    - Made dashboard pull from database to recieve parameters.
+    
