@@ -25,4 +25,8 @@ Release notes: 3/8/22
 Main features:
     - Added dashboard data to realtime database.
     - Made dashboard pull from database to recieve parameters.
-    
+
+Release notes: 3/22/22
+Main features: 
+    - added firebase hosting functionality.
+    - changed data recieved for sidebar.service.ts to be from firebase instead of http client.

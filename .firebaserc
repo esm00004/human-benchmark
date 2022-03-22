@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "human-benchmark-d54ce"
+  },
+  "targets": {
+    "human-benchmark-d54ce": {
+      "hosting": {
+        "human-benchmark": [
+          "human-benchmark-d54ce"
+        ]
+      }
+    }
+  }
+}
