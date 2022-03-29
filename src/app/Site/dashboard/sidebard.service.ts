@@ -13,4 +13,8 @@ export class DashboardsService {
     public getDashboards() {
           return this.db.list<SideBarItemModel>("sidebar").valueChanges();
     }
+
+    addGame(game : SideBarItemModel) {
+        this.db.list<SideBarItemModel>("sidebar").push(game);
+    }
 }

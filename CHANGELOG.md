@@ -30,3 +30,8 @@ Release notes: 3/22/22
 Main features: 
     - added firebase hosting functionality.
     - changed data recieved for sidebar.service.ts to be from firebase instead of http client.
+
+Release notes: 3/29/22
+Main features:
+    - created a form that sends data to databse
+    - created a method that sends newly added data to for loop

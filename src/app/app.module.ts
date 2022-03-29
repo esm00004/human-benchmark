@@ -25,6 +25,8 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddGameComponent } from './Site/add-game/add-game.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -45,14 +47,16 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     ReactiontimeInfoComponent,
     DashboardDataComponent,
     DashboardActivityFeedComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddGameComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
