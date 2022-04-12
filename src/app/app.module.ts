@@ -27,6 +27,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddGameComponent } from './Site/add-game/add-game.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import { FormsModule } from '@angular/forms';
     DashboardDataComponent,
     DashboardActivityFeedComponent,
     UserInfoComponent,
-    AddGameComponent
+    AddGameComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,

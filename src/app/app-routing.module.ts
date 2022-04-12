@@ -7,6 +7,7 @@ import { SignUpLayoutComponent } from './Site/sign-up-layout.component';
 import { LoginLayoutComponent } from './Site/login-layout.component';
 import { ReactiontimeLayoutComponent } from './Site/tests-components/reaction-time/reactiontime-layout.component';
 import { AddGameComponent } from './Site/add-game/add-game.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -15,7 +16,8 @@ const routes:Routes = [
   {path: 'signup', component: SignUpLayoutComponent},
   {path: 'login', component: LoginLayoutComponent},
   {path: 'tests/reactiontime', component: ReactiontimeLayoutComponent},
-  {path: 'admin', component: AddGameComponent}
+  {path: 'admin', component: AddGameComponent},
+  {path: 'auth', component: AuthenticationComponent}
 ];
 
 @NgModule({
