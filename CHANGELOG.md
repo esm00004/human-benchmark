@@ -35,3 +35,8 @@ Release notes: 3/29/22
 Main features:
     - created a form that sends data to databse
     - created a method that sends newly added data to for loop
+
+Release notes: 4/12/22
+Main features:
+    - added security through firebase
+    - added a signup and login functionality
